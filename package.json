@@ -1,0 +1,24 @@
+{
+  "name": "node-sofort",
+  "version": "0.1.0",
+  "description": "sofort.com gateway for node.js and io.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sofort",
+    "api",
+    "gateway",
+    "ueberweisung",
+    "payment"
+  ],
+  "author": "Josef Fröhle <github@josef-froehle.de>",
+  "license": "MIT",
+  "dependencies": {
+    "easyxml": "^1.0.0",
+    "lodash": "^3.10.1",
+    "request": "^2.61.0",
+    "xml2js": "^0.4.10"
+  }
+}
