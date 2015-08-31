@@ -2,7 +2,7 @@
   "name": "node-sofort",
   "version": "0.1.0",
   "description": "sofort.com gateway for node.js and io.js",
-  "main": "index.js",
+  "main": "lib/sofort.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,6 +16,7 @@
   "author": "Josef Fröhle <github@josef-froehle.de>",
   "license": "MIT",
   "dependencies": {
+    "async": "^1.4.2",
     "easyxml": "^1.0.0",
     "lodash": "^3.10.1",
     "request": "^2.61.0",
