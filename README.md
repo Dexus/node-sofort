@@ -83,8 +83,7 @@ Success link, overwrites the default value from the project settings. Is called 
 
 * If no success link is defined in the project settings this parameter becomes mandatory
 
-
-	{ success_url: 'https://www.example.com/sofort/success' }
+```{ success_url: 'https://www.example.com/sofort/success' }```
 	
 #### success_link_redirect  - Boolean
 Automatic redirection to success page. If this has not been activated, a summary page of SOFORT GmbH will be displayed to the customer. Overwrites project settings.
@@ -96,8 +95,7 @@ Abort link, overwrites the default value from the project settings. Is called wh
 
 * If no abort link is defined in the project settings this parameter becomes mandatory
 
-
-	{ abort_url: 'https://www.example.com/sofort/abort' }
+```{ abort_url: 'https://www.example.com/sofort/abort' }```
 	
 #### timeout_url - String (255)
 Timeout link, overwrites the default value from the project settings. Is called when the timeout value stored in the project settings has been expired on the payment wizard. If the transaction ID of SOFORT Banking should be used as part of the URL, the parameter '-TRANSACTION-' can be inserted in the URL String.
