@@ -38,13 +38,21 @@ Install with npm
 
 ### createPayment(amount,currency,[reason1,reason2], options, callback)
 
+
 **amount** 
+
 Decimal (8.2) Please note that if the currency_code is "HUF" and a float value has been assigned in API-step 1 the returned amount is rounded to the nearest integer value. (e.g. 1000.50 > 1001 and 1000.49 > 1000).
+
 ---
+
 **currency** 
+
 supported (At this time, only EUR, GBP, CHF, PLN, HUF, and CZK are accepted.)
+
 ---
+
 **reason1/reason2** 
+
 Reason; please transfer a unique value (e.g. order ID and customer ID, "OID018293 CID00131"), only the following characters are allowed: '0-9', 'a-z', 'A-Z', ' ', '+', ',', '-', '.'. Umlauts are replaced, e.g. ä -> ae. Other characters will be removed for the display on our payment page and for notifications. Therefore, a modified string for reason may be transmitted for redirections (success and abort link and notifications). If the transaction ID of SOFORT Banking should be used as reason, the parameter '-TRANSACTION-' can be inserted in the reason String.
 
 **Important**: Some banks do not display the entire characters of both reasons, e.g. on the account statements the last characters are cut off. Therefore, the important data should be inserted at the beginning of the first reason field.
