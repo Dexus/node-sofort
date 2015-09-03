@@ -1,10 +1,14 @@
 {
   "name": "node-sofort",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "sofort.com gateway for node.js and io.js",
   "main": "lib/sofort.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dexus/node-sofort.git"
   },
   "keywords": [
     "sofort",
