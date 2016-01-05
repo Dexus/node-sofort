@@ -1,6 +1,6 @@
 {
   "name": "node-sofort",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "sofort.com gateway for node.js and io.js",
   "main": "lib/sofort.js",
   "scripts": {
@@ -18,7 +18,10 @@
     "payment"
   ],
   "author": "Josef Fröhle <github@josef-froehle.de>",
-  "contributors": ["Robert Oehlmann (http://github.com/robofish/)"],
+  "contributors": [
+    "Robert Oehlmann (http://github.com/robofish/)",
+    "Tobi Kremer (https://github.com/soulchild/)"
+    ],
   "license": "MIT",
   "dependencies": {
     "async": "^1.4.2",
