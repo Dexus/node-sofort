@@ -1,6 +1,8 @@
 node-sofort
 ====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Dexus/node-sofort.svg)](https://greenkeeper.io/)
+
 Module to use sofort.com "sofort gateway" with node.js and iojs.
 
 
