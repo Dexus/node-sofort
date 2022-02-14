@@ -24,7 +24,7 @@
     ],
   "license": "MIT",
   "dependencies": {
-    "async": "2.6.3",
+    "async": "3.2.3",
     "easyxml": "2.0.1",
     "lodash": "4.17.21",
     "request": "2.79.0",
