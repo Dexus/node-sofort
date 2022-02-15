@@ -1,5 +1,16 @@
 {
   "extends": [
     "config:base"
+  ],
+  "dependencyDashboardAutoclose": true,
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  "commitBody": "[skip ci]",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
   ]
 }
